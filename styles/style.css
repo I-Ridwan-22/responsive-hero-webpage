@@ -33,7 +33,6 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -93,8 +92,6 @@ body{
     row-gap: 30px;
     column-gap: -20px;
 }
-
-/* Main body 3 styles */
 .plant-lovers{
     display: flex;
     margin: 210px 150px 0 150px;
@@ -123,8 +120,6 @@ body{
     width: 286px;
     height: 286px;
 }
-
-/* Main body 4 styles */
 .latest-deals{
     margin-top: 140px;
     margin-left: 150px;
@@ -195,8 +190,6 @@ body{
     font-weight: bold;
     z-index: 2;
 }
-
-/* Main body 5 styles */
 .newslatter{
     margin-top: 120px;
     background-image: url(../assets/news-letter-bg.png);
@@ -254,9 +247,9 @@ footer{
     display: flex;
     gap: 24px;
 }
+
 /* Media Queries */
-@media screen and (max-width: 768px) {  
-    /* Navbar styles */
+@media screen and (max-width: 768px) {
     .navbar{
         margin: 16px 20px;
     }
@@ -272,8 +265,6 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
-
-    /* Main body 1 styles */
     .fresh-flower{
         display: flex;
         flex-direction: column-reverse;
@@ -304,8 +295,6 @@ footer{
         height: auto;
         max-width: 100%;
     }
-
-    /* Main body 2 styles */
     .our-plants{
         margin: 65px 20px 16px 20px;
         text-align: center;
@@ -357,8 +346,6 @@ footer{
         font-size: 18px;
         margin-bottom: 20px;
     }
-
-    /* Main body 3 style */
     .plant-lovers{
         flex-direction: column;
         margin: 65px 20px 0 20px;
@@ -388,8 +375,6 @@ footer{
         line-height: 1.5;
         margin-bottom: 143px;
     }
-
-    /* main body 4 styles */
     .latest-deals{
         margin-top: 80px;
         margin-left: 20px;
@@ -432,8 +417,6 @@ footer{
     .text-heading{
         margin-bottom: 10px;
     }
-
-    /* Main body 5 styles */
     .newslatter{
         margin-top: 60px;    
     }
